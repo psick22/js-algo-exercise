@@ -1,2 +1,1 @@
-
-  console.log('B:', B);
+pos
