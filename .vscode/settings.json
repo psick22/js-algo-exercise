@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/Users/kirok/.pyenv/versions/test/bin/python"
+  "python.pythonPath": "/Users/kirok/.pyenv/versions/test/bin/python",
+  "jupyter.jupyterServerType": "local"
 }
