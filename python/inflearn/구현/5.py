@@ -14,7 +14,12 @@ a = list(map(int, input().split()))
 
 # 평균 구하기
 
-avg = round(sum(a) / n)
+# 반올림 round_half_up
+
+# python의 round 함수 : round_half_even (4.5 와 같이 정확하게 half인 경우 짝수쪽으로 근사값 => round(4.5) => 4 )
+
+
+avg = round(sum(a) / n + 0.5)
 
 min = float("inf")
 res = 0
